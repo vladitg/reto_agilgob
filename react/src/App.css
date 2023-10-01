@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.table-container{
+  max-width: 1000px;
+  padding: 10px;
+  margin: 0 auto
+}
+.btn-actions svg{
+  margin: 0px 10px;
+  cursor: pointer
+}
+.modal{
+  position: absolute;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.input{
+  width: 100%;
+}
+.btnModal{
+  margin-top: 1rem;
+}
+.form-filters{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.form-filters .MuiInputBase-root{
+  min-width: 200px;
+}
+.modalAdd > div{
+  margin: 10px 0px;
+  width: 100%;
+}
+.modalAdd > .MuiInputBase-root{
+  margin-top: 20px;
+}
